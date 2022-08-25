@@ -25,8 +25,6 @@ struct LandmarkRow: View {
             if landmark.isFavorite {
                 Image(systemName: "heart.fill")
                     .foregroundColor(.red)
-            } else if !landmark.isFavorite {
-                Image(systemName: "heart")
             }
         }
     }
